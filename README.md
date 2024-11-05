@@ -55,4 +55,21 @@
   ``` 
 - Generate summary of a student (GET): http://localhost:5000/students/{ID}/summary
 
+  Had following record in my DB:
+  ```
+      {
+          "Student_ID": 3,
+          "Name": "Binoy",
+          "Age": 193,
+          "Email": "Binoy@google.com"
+      }
+  ```
+  For the above record, the response received is:
+  ```
+      {
+        "status_code": 200,
+        "summary": "Here is a summary of the student profile:\n\n* Student ID: 3\n* Name: Binoy\n* Age: 193 (note: this seems unlikely, as it would make the student over 190 years old!)\n* Email: Binoy@google.com"
+      }
+  ```
+
 ## Replace {ID} in URL with an integer like 1, 2 or 33. 
