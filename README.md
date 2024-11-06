@@ -33,9 +33,9 @@
     Sample payload:
   
       {
-          "Student_ID": "1",
+          "Student_ID": 1,
           "Name":"Arun",
-          "Age": "13",
+          "Age": 13,
           "Email": "Arun@google.com"
       }
   ```  
@@ -47,9 +47,9 @@
     Sample payload:
   
       {
-          "Student_ID": "1",
+          "Student_ID": 1,
           "Name":"Arun Das",
-          "Age": "33",
+          "Age": 33,
           "Email": "Arun@google.com"
       }
   ``` 
